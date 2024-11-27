@@ -1,0 +1,19 @@
+
+*{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #171d32;
+}
+/* Main App Container */
+.appContainer {
+  background-color: #171d32; /* bg-[#171d32] */
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Home and About Sections */
+.section {
+  width: 100%;
+}

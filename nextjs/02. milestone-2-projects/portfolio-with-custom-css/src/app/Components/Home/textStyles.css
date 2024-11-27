@@ -1,0 +1,27 @@
+.transition {
+    font-size: 2rem; 
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    animation: textEffect 3s ease-in-out infinite;
+  }
+  
+  @keyframes textEffect {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .textChangeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #171d32; 
+  }
+  

@@ -1,0 +1,28 @@
+.projects-section {
+    padding: 2.5rem;
+    background-color: #171d32;
+    color: white;
+  }
+  
+  .projects-section h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .projects-section .project-list {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+  }
+  
+  @media (min-width: 768px) {
+    .projects-section {
+      padding: 6rem;
+    }
+  
+    .projects-section h1 {
+      font-size: 2.5rem;
+    }
+  }
+  
