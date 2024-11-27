@@ -1,0 +1,18 @@
+.btn {
+    @apply w-[200px] py-4 text-center mx-2 rounded-full font-bold border-2 border-[#ee4c7c] bg-transparent text-white relative overflow-hidden;
+  }
+  
+  .span-bg {
+    @apply absolute left-0 bottom-0 h-full w-0 bg-[#ee4c7c] rounded-full transition-all duration-500;
+    z-index: -1;
+  }
+  
+  .btn:hover .span-bg {
+    width: 100%;
+  }
+  
+  .btn:hover {
+    border: none;
+  }
+  
+  
