@@ -1,0 +1,62 @@
+/* General styles for the Contact Us page container */
+.contact-container {
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #3a2423; 
+    color: #fff; 
+}
+.contact-container h1 {
+    color: #fff; 
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.contact-description {
+    font-size: 1.2em;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.contact-details {
+    margin-bottom: 30px;
+}
+.contact-form {
+    background-color: #2f1f1e;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-form label {
+    color: #fff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #eee2ba;
+    color: #3a2423; 
+}
+
+.contact-form button {
+    width: 20%;
+    padding: 10px;
+    background-color: #ac4665; 
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #e3afbc;
+}

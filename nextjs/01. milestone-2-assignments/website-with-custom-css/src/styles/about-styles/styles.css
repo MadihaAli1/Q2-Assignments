@@ -1,0 +1,23 @@
+.about-container {
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #3a2423; 
+    color: #fff; 
+}
+
+.about-container h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 1.2em;
+    color: #fff; 
+    line-height: 1.6;
+    margin-bottom: 15px;
+}

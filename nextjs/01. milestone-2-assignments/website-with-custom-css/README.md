@@ -1,0 +1,2 @@
+- Build a simple multi-page website using React components.
+- Apply custom css to style the website, ensuring responsiveness.
